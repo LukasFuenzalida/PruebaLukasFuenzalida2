@@ -45,7 +45,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // Add a marker in Sydney and move the camera
         LatLng sydney = new LatLng(40.4324426,116.5609872);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Muralla Chino"));
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Muralla China"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }

@@ -17,17 +17,19 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton17"
+                android:id="@+id/btn_im1"
                 android:layout_width="150dp"
                 android:layout_height="180dp"
                 android:layout_weight="1"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/_200px_the_great_wall_of_china_at_jinshanling_edit" />
 
             <ImageButton
-                android:id="@+id/imageButton11"
+                android:id="@+id/btn_im2"
                 android:layout_width="150dp"
                 android:layout_height="180dp"
                 android:layout_weight="1"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/descarga__2_" />
 
             <ImageButton

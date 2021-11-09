@@ -16,23 +16,26 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/imageView2"
+            <ImageButton
+                android:id="@+id/btn_img5"
                 android:layout_width="150dp"
                 android:layout_height="180dp"
                 android:layout_weight="1"
-                app:srcCompat="@drawable/gran_canon" />
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/_fa5338881ffa" />
 
-            <ImageView
-                android:id="@+id/imageView"
+            <ImageButton
+                android:id="@+id/btn_img6"
                 android:layout_width="150dp"
                 android:layout_height="180dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"
                 app:srcCompat="@drawable/descarga__3_" />
 
             <ImageButton
                 android:id="@+id/btn_mapa3"
                 android:layout_width="150dp"
-                android:layout_height="109dp"
+                android:layout_height="180dp"
                 android:layout_weight="1"
                 app:srcCompat="@android:drawable/ic_dialog_map" />
         </LinearLayout>
